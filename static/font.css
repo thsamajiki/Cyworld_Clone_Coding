@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Indie+Flower&family=Nanum+Gothic&family=Nanum+Pen+Script&display=swap');
+
+.post-name {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 30px;
+}
+
+
+.profile-post {
+    font-family: 'Indie Flower', cursive;
+    font-size: 18px;
+}
+  
+.update-news,
+.miniroom {
+    font-weight: bolder;
+}
+
+.update-left-box {
+    font-family: "Black Han Sans", sans-serif;
+    font-family: "Jua", sans-serif;
+    font-family: "Nanum Gothic", sans-serif;
+    font-size: 13px;
+}
+ 
+.board-info {
+    font-size: 14px;
+}

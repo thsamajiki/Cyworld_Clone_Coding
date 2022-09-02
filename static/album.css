@@ -1,0 +1,27 @@
+.mid-box {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    width: 97%;
+    height: auto;
+    overflow: auto;
+}
+
+.album-title {
+    margin-bottom: 15px;
+    padding: 3px 0;
+    padding-left: 10px;
+    border-radius: 3px;
+    background-color: #b8b4b4;
+}
+
+.album-image {
+    width: 200px;
+    margin-left: 15px;
+}
+  
+.album-post {
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}

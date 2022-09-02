@@ -1,0 +1,115 @@
+.mid-box {
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 5px;
+}
+
+.calendar-box {
+    display: flex;
+    flex-wrap: wrap;
+    
+    margin: 15px;
+    width: 95%;
+    border: 2px solid grey;
+    border-radius: 2px;
+}
+
+.month-day {
+    flex: 0.1;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+
+
+.calendar-left-box {}
+
+.calendar-right-box {
+    flex: 1;
+}
+
+.diary-box {
+    overflow: auto;
+}
+
+
+.diary-post {
+    display: flex;
+    flex-direction: column;
+
+    width: 95%;
+    height: auto;
+    border: 1px solid rgb(189, 186, 186);
+    margin-left: 15px;
+    margin-bottom: 30px;
+    border: 2px solid grey;
+    border-radius: 2px;
+}
+
+.diary-date {
+    flex: 0.1;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: rgb(80, 145, 123);
+    font-weight: bold;
+}
+
+.diary-content {
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+    height: 500px;
+    min-height: 300px;
+    line-height: 150%;
+}
+
+.sat {
+    color: blue;
+}
+
+.sun {
+    color: red;
+}
+
+.btn-secret-diary {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 50%;
+}
+
+.btn-secret-diary > button {
+    padding-top: 1px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    color: white;
+    background-color: white;
+    border: white;
+    border-radius: 3px;
+}
+  
+.btn-secret-diary > button:hover {
+    transition: 800ms ease all;
+    color: rgb(243, 247, 246);
+    background-color: rgb(89, 163, 147);
+    cursor: pointer;
+}
+
+.icon {
+    font-size: 1.5rem;
+    color: red;
+    margin-top: 5px;
+    margin-right: 1rem;
+}
+
+#secret-box {
+    display: none;
+}
